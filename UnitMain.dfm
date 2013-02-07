@@ -13,6 +13,12 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object dbtxt1: TDBText
+    Left = 528
+    Top = 144
+    Width = 65
+    Height = 17
+  end
   object conDB: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False

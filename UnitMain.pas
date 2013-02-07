@@ -5,13 +5,14 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ZAbstractConnection, ZConnection, DB, ZAbstractRODataset,
-  ZAbstractDataset, ZAbstractTable, ZDataset;
+  ZAbstractDataset, ZAbstractTable, ZDataset, StdCtrls, DBCtrls;
 
 type
   TForm1 = class(TForm)
     conDB: TZConnection;
     dsTest: TDataSource;
     ztbl1: TZTable;
+    dbtxt1: TDBText;
   private
     { Private declarations }
   public
