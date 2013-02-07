@@ -26,4 +26,8 @@ object Form1: TForm1
     Left = 256
     Top = 128
   end
+  object ztbl1: TZTable
+    Left = 144
+    Top = 112
+  end
 end
