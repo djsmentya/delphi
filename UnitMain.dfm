@@ -21,4 +21,8 @@ object Form1: TForm1
     Left = 144
     Top = 208
   end
+  object dsTest: TDataSource
+    Left = 256
+    Top = 128
+  end
 end
