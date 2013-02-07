@@ -18,6 +18,7 @@ object Form1: TForm1
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
     Port = 0
+    Database = 'database'
     Left = 144
     Top = 208
   end
