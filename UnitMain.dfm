@@ -18,6 +18,7 @@ object Form1: TForm1
     Top = 144
     Width = 65
     Height = 17
+    DataSource = dsTest
   end
   object conDB: TZConnection
     ControlsCodePage = cGET_ACP
