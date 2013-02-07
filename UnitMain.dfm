@@ -25,4 +25,9 @@ object Form1: TForm1
     Left = 256
     Top = 128
   end
+  object ztblMM: TZTable
+    Connection = conDB
+    Left = 528
+    Top = 80
+  end
 end
