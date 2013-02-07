@@ -31,4 +31,9 @@ object Form1: TForm1
     Left = 144
     Top = 112
   end
+  object ztbl1: TZTable
+    Connection = conDB
+    Left = 144
+    Top = 112
+  end
 end
