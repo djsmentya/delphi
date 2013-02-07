@@ -1,4 +1,4 @@
-object Form1: TForm1
+﻿object Form1: TForm1
   Left = 297
   Top = 182
   Width = 928
@@ -13,6 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object dbtxt1: TDBText
+    Left = 528
+    Top = 144
+    Width = 65
+    Height = 17
+    DataSource = dsTest
+  end
   object conDB: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
@@ -25,11 +32,6 @@ object Form1: TForm1
   object dsTest: TDataSource
     Left = 256
     Top = 128
-  end
-  object ztbl1: TZTable
-    Connection = conDB
-    Left = 144
-    Top = 112
   end
   object ztbl1: TZTable
     Connection = conDB
