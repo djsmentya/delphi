@@ -4,11 +4,12 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ZAbstractConnection, ZConnection;
+  Dialogs, ZAbstractConnection, ZConnection, DB;
 
 type
   TForm1 = class(TForm)
     conDB: TZConnection;
+    dsTest: TDataSource;
   private
     { Private declarations }
   public
