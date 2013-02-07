@@ -27,6 +27,7 @@ object Form1: TForm1
     Top = 128
   end
   object ztbl1: TZTable
+    Connection = conDB
     Left = 144
     Top = 112
   end
